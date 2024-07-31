@@ -1,4 +1,4 @@
-#!/urs/bin/node
+#!/usr/bin/node
 // Write a script that computes the number of tasks completed by user id
 
 const request = require('request');
