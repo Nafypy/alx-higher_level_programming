@@ -15,9 +15,9 @@ function writeFile(filePath, content) {
 		console.log('File written successfully');
 	});
 }
-if(process.argv.length !== 4) {
+if (process.argv.length !== 4) {
 	console.error('Usage: ./write_file.js FILE_PATH STRING_TO_WRITE');
-}else {
+} else {
 	const filePath = process.argv[2];
 	const content = process.argv[3];
 	writeFile(filePath, content);
